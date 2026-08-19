@@ -1,0 +1,70 @@
+body {
+    margin-top: 0;
+    background: #faf8f5;
+    font-family: 'Fira Code', monospace;
+}
+
+#main {
+    border: 1px solid grey;
+    padding-top: 35px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+#f-box h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#f-box p {
+    width: 400px;
+    margin: 8px auto 40px;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.cards {
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    padding-top: 30px;
+    border: 1px solid pink;
+}
+
+.imgs {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.names {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.grey {
+    margin: 5px 0 18px;
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+.logo-div {
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    padding-top: 6px;
+    border: 1px solid #ff9f95;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 20px;
+    height: 10px;
+    margin: 0 5px;
+    vertical-align: middle;
+}

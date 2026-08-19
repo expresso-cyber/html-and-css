@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNc-oXSh2zuozEDIie-OfmqRZivyFmzESRUFGFkHCeNA&s=10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85vw;
+  height: 40vh;
+  padding: 10px;
+  margin: 20px;
+  line-height: 1.5;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+}
+h1,
+p {
+  color: purple;
+}
+
+p {
+  text-align: center;
+  margin: 5px;
+}
+
+.share {
+  color: rgb(254, 252, 252);
+  background-color: rgb(142, 22, 202);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.card2{
+    background-image: url(../imgs/invitation.png);
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2.4;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card2 > h2, q, h1, button{
+    color: white;
+}
+
+.card2 > h1{
+    line-height: 1;
+    margin: 30px;
+}
+
+span{
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: red;
+    border:none;
+    padding: 5px;
+    border-radius: 8px;
+}
