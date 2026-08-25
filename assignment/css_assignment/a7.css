@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code';
+    color: whitesmoke;
+}
+
+#main{
+    padding: 20px;
+    width: 100%;
+    height: 775px; 
+    background-color: #0a083c;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items:center;
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+    border-radius: 30px;
+    background-color: rgba(79, 63, 252, 0.1);;
+}
+
+#navbar .li{
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainHeaderText{
+    color: rgb(225, 239, 118);
+    font-size: 20px;
+    text-shadow: 5px 5px 8px rgba(22, 175, 205, 0.912);
+}
+
+#navbar a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(247, 235, 235,0.6);
+    text-underline-offset: 5px;
+}
+
+#navbar a:nth-child(1){
+    color: white !important;
+    text-decoration: underline;
+    text-decoration-color: #807cfa !important;
+}
+
+#navbar a:hover{
+    transition: 0.7s;
+    text-decoration: underline;
+    text-decoration-color: rgb(203, 222, 196);
+    color: rgb(211, 208, 208);
+}
+
+#hero-section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px 20px 30px;
+}
+
+.left-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 52%; 
+}
+
+.hero-text1{
+    font-size: 56px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.hero-text2{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.btn,.btn1,.btn2{
+    border:none;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 16px grey;
+    background-color: #524dd3 ;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    margin-bottom: 35px;
+}
+
+.btn1:hover{
+    box-shadow: 0px 0px 40px grey;
+}
+
+.btn2:hover{
+    box-shadow: 0px 0px 40px grey;
+}
+
+.btn1,.btn2{
+    padding: 20px;
+}
+
+.btn2{
+    background-color: transparent;
+    border: 1px solid rgb(141, 141, 199);
+    color: rgb(112, 112, 192);
+    outline-offset: 1px solid rgb(187, 187, 204);
+}
+
+#stats{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stat h1{
+    font-size: 36px;
+    color: #5b55e8;
+    margin-bottom: 5px;
+}
+
+.stat p{
+    font-size: 14px;
+    color: rgba(250, 248, 248, 0.7);
+}
+
+.right-img{
+    /* margin: 0px auto; */
+    width: 520px;
+    /* max-width: 520px; */
+    height: 500px;
+    background: url(./imgs/brain1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
