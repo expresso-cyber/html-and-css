@@ -7,8 +7,9 @@
 }
 
 #main{
-    padding: 20px;
+    padding: 50px;
     width: 100%;
+    padding-top: 30px;
     height: 775px; 
     background-color: #0a083c;
 }
@@ -91,15 +92,18 @@
     border:none;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 0px 0px 16px grey;
     background-color: #524dd3 ;
     color: whitesmoke;
     cursor: pointer;
 }
 
+.btn:hover{
+    /* transition: 0.9s; */
+    text-shadow: 3px 3px 30px rgb(255, 255, 255);
+}
+
 .hero-btn{
     display: flex;
-    justify-content: left;
     gap: 50px;
     margin-bottom: 35px;
 }
@@ -113,6 +117,7 @@
 }
 
 .btn1,.btn2{
+    font-size: 15px;
     padding: 20px;
 }
 
@@ -145,12 +150,18 @@
 }
 
 .right-img{
-    /* margin: 0px auto; */
-    width: 520px;
-    /* max-width: 520px; */
+    width: 720px;
     height: 500px;
     background: url(./imgs/brain1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
+    border: none;
+    border-radius: 30px;
+}
+
+.right-img:hover{
+    cursor: pointer;
+    filter: invert(100%);
+    transition: 1s;
 }
