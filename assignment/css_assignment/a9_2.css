@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+#main{
+    width: 100%;
+    background-color: white;
+    padding: 20px 30px;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.dot{
+    color: #a521a5 ;
+}
+
+#navbar ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+li:nth-child(1) a{
+    color: #a521a5;
+}
+
+li a:hover{
+    transition: 0.4s;
+    color:#a521a5;
+}
+
+.btn{
+    padding: 5px 10px;
+    background-color: #a521a5;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.right{
+    width: 500px;
+    height: 500px;
+    background: url(https://bootstrapmade.com/content/demo/Invent/assets/img/illustration/illustration-16.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:end baseline;
+    background-position: center;
+}
+
+.hero {
+    width: 100%;
+    padding: 60px;
+}
+
+.hero-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: -160px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.bell{
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 0px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.bell .bell-img{
+    width: 20px;
+    height: 20px;
+    background: url(./a9_Imgs/bell.svg);
+    background-color: rgba(237, 110, 237, 0.525);
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-text, .hero-para{
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.hero-btn{
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(64, 114, 250);
+    color: rgb(242, 241, 240);
+    border-radius: 4px;
+}
+
+.hero-bottom{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(252, 115, 252);
+    padding: 20px 20px;
+}
+
+svg{
+    background-color: rgba(236, 72, 195, 0.716);
+    border-radius: 50%;
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
