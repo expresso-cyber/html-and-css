@@ -49,7 +49,6 @@
 select{
     color: rgb(194, 148, 236);
     margin: 10px;
-    /* background-color: #0a083c; */
     background-color: rgba(79, 63, 252, 0.1);;
     border: none;
 }
