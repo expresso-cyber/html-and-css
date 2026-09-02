@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Fira Code', monospace;
+}
+
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.756), rgba(0, 0, 0, 0.634)),url(./imgs/office.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    padding-bottom: 128px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.1));
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    border: 1px solid rgba(255, 117, 12, 0.959);
+    background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.085));
+    padding: 10px;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+li a{
+    color: #a5a7a5;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+li a, .hero h1, .inside h3{
+    color: #d4d9d4;
+}
+
+.hero p{
+    color: rgb(128, 128, 128);
+}
+
+li:hover a{
+    transition-timing-function:ease-out;
+    transition-delay: 0.1s;
+    transition: 0.5s;
+    transform: scale(1.2);
+    color: orange;
+    text-decoration-color: rgb(242, 128, 128);
+}
+
+.mainName{
+    font-size: 36px;
+}
+
+.mainName:hover{
+    transition: 0.3s;
+    text-shadow: 2px 2px 10px #e8e8e6c2;
+}
+
+.mainName:hover .dot-color{
+    transition: 0.3s;
+    text-shadow: 2px 2px 10px #ff0000;
+}
+
+.dot-color{
+    color: rgb(242, 91, 116);
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.hero-heading{
+    font-size: 50px;
+    margin: 50px 0px;
+}
+
+.hero p{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid rgba(201, 200, 200, 0.352);
+    margin: 0px 10px;
+    gap: 20px;
+    transition: border-color 0.8s;
+    cursor:pointer;
+}
+
+.inside:hover{
+    border-color: #e4b257f0;
+}
+
+.inside:hover h3{
+    transition: 0.8s;
+    color: #e4b257f0; 
+}
+
+svg {
+    display: flex;
+    align-self: center;
+    width: 50px;
+    height: 40px;
+}
+
+.inside:hover svg{
+    transition: 0.8s;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.inside h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: beige;
+}
+
+.check{
+    width: 800px;
+    position: relative;
+    padding: 10px;
+}
+
+.check p{
+    color: grey;
+}
+
+.after::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: rgba(250, 185, 22, 0.688);
+    position: absolute;
+    top: 20px;
+    right: 630px;
+}
+
+.check h1{
+    color: black;
+}
+
+.cards p,h3{
+    color: black;
+}
+
+.cards{
+    width: 800px;
+    margin: 0px 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    align-content: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gold;
+}
+
+.icon1{
+    width: 50px;
+    height: 50px;
+    background: url(https://i.pinimg.com/474x/62/80/4f/62804f35e06e1d5e37efeb578833adaa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 440px) and (max-width:956px){
+
+    .main{
+        padding: 5px 10px;
+        background-position: top right;
+    }
+
+    .hero{
+        text-align: center;
+    }
+
+    .hero-heading{
+        font-size: 30px;
+    }
+
+    .hero p{
+        margin-top: 30px;
+    }
+
+    .hero p{
+        font-size: 20px;
+    }
+
+    .navbar ul li a{
+        font-size: 8px;
+    }
+
+    .mainName{
+        font-size: 20px;
+    }
+
+    .btn{
+        font-size: 7px;
+        padding: 3x;
+        border-radius: 30px;
+    }
+
+    .navbar ul{
+        gap: 10px;
+    }
+
+    .inside h3{
+        font-size: 10px;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .inside{
+        margin-bottom: 20px;
+        width: 300px; 
+    }
+
+    svg{
+        width: 50px;
+        height: 35px;
+    }
+}
