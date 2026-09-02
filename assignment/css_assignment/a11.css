@@ -157,13 +157,14 @@ svg {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background-color: beige;
+    background-color: rgb(250, 250, 244);
 }
 
 .check{
-    width: 800px;
+    width: 1000px;
     position: relative;
     padding: 10px;
+    padding-left: 20px;
 }
 
 .check p{
@@ -177,11 +178,11 @@ svg {
     background-color: rgba(250, 185, 22, 0.688);
     position: absolute;
     top: 20px;
-    right: 630px;
+    right: 815px;
 }
 
 .check h1{
-    color: black;
+    color: rgb(34, 33, 33);
 }
 
 .cards p,h3{
@@ -189,9 +190,8 @@ svg {
 }
 
 .cards{
-    width: 800px;
+    width: 1000px;
     margin: 0px 30px;
-    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -199,21 +199,41 @@ svg {
 }
 
 .card{
-    align-content: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 300px;
     height: 300px;
     padding: 10px;
     margin: 10px;
-    border: 1px solid gold;
+    border: 1px solid rgba(168, 167, 162, 0.693);
+    gap: 20px;
+    transition: transform 0.3s linear;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 20px rgba(219, 216, 216, 0.493), -2px -2px 10px rgba(209, 206, 206, 0.553);
+}
+
+.card p{
+    text-align: center;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
 }
 
 .icon1{
-    width: 50px;
-    height: 50px;
     background: url(https://i.pinimg.com/474x/62/80/4f/62804f35e06e1d5e37efeb578833adaa.jpg);
     background-position: center;
     background-size: cover;
+    fill: goldenrod;
+    filter: sepia(1) saturate(5) hue-rotate(10deg) brightness(0.9);
 }
 
 @media screen and (min-width: 440px) and (max-width:956px){
